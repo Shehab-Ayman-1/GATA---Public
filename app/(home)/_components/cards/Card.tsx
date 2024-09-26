@@ -9,7 +9,7 @@ type TCard = {
 export const Card = ({ bg, text, CardIcon }: TCard) => {
     return (
         <div
-            className="flex-center group mx-auto w-full max-w-60 flex-col rounded-md px-4 py-10 !shadow-white/20 transition-all hover:shadow-around md:py-20"
+            className="flex-center group mx-auto w-full max-w-60 flex-col rounded-md px-4 py-10 transition-all hover:shadow-around dark:hover:!shadow-white/20 md:py-20"
             style={{ borderRadius: "97% 3% 100% 0% / 28% 76% 24% 72%" }}
         >
             <div className="relative">

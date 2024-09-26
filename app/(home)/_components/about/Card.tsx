@@ -8,7 +8,7 @@ type TCard = {
 
 export const Card = ({ title, description, icon }: TCard) => {
     return (
-        <div className="w-full rounded-md p-4 !shadow-white/20 hover:shadow-lg">
+        <div className="w-full rounded-md p-4 hover:shadow-lg dark:hover:!shadow-white/20">
             <div className="relative mb-6 h-24 w-fit">
                 <Image
                     src={`/images/overview/home/${icon}.svg`}
